@@ -26,10 +26,11 @@ header{
   background-color: #1b3457;
   background-image: url("../img/background-header.png");
   background-size:75%;
-  background-position: bottom right;
+  background-position: 125% 100%;
   background-repeat: no-repeat;
   position: relative;
 }
+/* TOP_LINE */
 .top_line{
   padding-top: 20px;
 }
@@ -40,7 +41,8 @@ header{
   margin-left: 5px;
 }
 .header_nav li a,
-.header_buttons li a{
+.header_buttons li a,
+.header_lyrics a{
   color: #ffffff;
   text-decoration: none;
   font-size: 9px;
@@ -61,12 +63,32 @@ header{
   float:right;
 }
 .green_button{
-  padding: 10px;
+  padding: 6px;
   background-color: #7CBB02;
-  border-radius: 8px;
+  border-radius: 5px;
 }
 .empty_button{
-  padding: 10px;
+  padding: 6px 20px;
   border: 1px solid #ffffff;
-  border-radius: 8px;
+  border-radius: 5px;
 }
+/* /TOP LINE */
+/* HEADER LYRICS */
+.header_lyrics{
+  width: 45%;
+  position:absolute;
+  top: 40%
+}
+.header_lyrics h1{
+  color: white;
+  font-weight: 700;
+  font-size: 37px;
+  margin-bottom: 30px;
+}
+.header_lyrics .green_button{
+  padding: 15px;
+  background-color: #7CBB02;
+  border-radius: 5px;
+  font-size: 15px;
+}
+/* /HEADER LYRICS */
