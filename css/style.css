@@ -22,26 +22,36 @@ body{
 }
 /* /proprietá speciali */
 header{
-height: 400px;
-background-color: #1b3457;
-background-image: url("../img/background-header.png");
-background-size:75%;
-background-position: bottom right;
-background-repeat: no-repeat;
-position: relative;
+  height: 420px;
+  background-color: #1b3457;
+  background-image: url("../img/background-header.png");
+  background-size:75%;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.top_line{
+  padding-top: 20px;
 }
 .header_nav li,
 .header_buttons li{
   list-style: none;
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 .header_nav li a,
 .header_buttons li a{
   color: #ffffff;
   text-decoration: none;
-  font-size: 11px;
+  font-size: 9px;
   font-weight: 300;
+}
+.header_nav{
+  margin-left: 25px;
+}
+.header_nav,
+.header_buttons{
+  line-height: 50px;
 }
 .logo,
 .header_nav{
@@ -60,5 +70,3 @@ position: relative;
   border: 1px solid #ffffff;
   border-radius: 8px;
 }
-
-  /* /barra navigazione */
