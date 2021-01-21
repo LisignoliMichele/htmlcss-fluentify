@@ -22,8 +22,8 @@ body{
 }
 /* /proprietá speciali */
 header{
-  height: 420px;
-  background-color: #1b3457;
+  height: 450px;
+  background-color: #0c325a;
   background-image: url("../img/background-header.png");
   background-size:75%;
   background-position: 125% 100%;
@@ -92,3 +92,21 @@ header{
   font-size: 15px;
 }
 /* /HEADER LYRICS */
+/* SECTION GRAY */
+.section_gray{
+  height: 120px;
+  background-color: #D3D3D3;
+}
+.section_gray *{
+  text-align: center;
+}
+.section_gray h2{
+  font-weight: 700;
+  font-size: 20px;
+  padding-top: 30px;
+}
+.section_gray p{
+  color: #909090;
+  padding-top: 10px;
+}
+/* /SECTION GRAY  */
