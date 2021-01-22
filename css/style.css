@@ -21,11 +21,12 @@ body{
   clear:both;
 }
 /* /proprietá speciali */
+
+/* HEEADER */
 header,
 .banner{
   background-color: #0c325a;
 }
-/* TOP_LINE */
 .top_line{
   padding-top: 20px;
 }
@@ -72,17 +73,16 @@ header,
   border: 1px solid #ffffff;
   border-radius: 5px;
 }
-/* /TOP LINE */
-/* HEADER */
+/* /HEADER*/
+/* /BANNER */
 .banner{
-  height: 400px;
+  height: 350px;
   background-image: url("../img/background-header.png");
   background-size:75%;
   background-position: 125% 100%;
   background-repeat: no-repeat;
   position: relative;
 }
-  /* HEADER LYRICS */
 .header_lyrics{
   width: 45%;
   position:absolute;
@@ -101,27 +101,31 @@ header,
   border-radius: 5px;
   font-size: 15px;
 }
-  /* /HEADER LYRICS */
-/* HEADER */
-/* SECTION GRAY */
-.section_gray{
+/* /BANNER */
+/* SECTION 1 */
+.section_1{
   height: 120px;
   background-color: #D3D3D3;
 }
-.section_gray *{
+.section_1 *{
   text-align: center;
 }
-.section_gray h2{
+.section_1 h2{
   font-weight: 700;
   font-size: 20px;
   padding-top: 30px;
 }
-.section_gray p{
+.section_1 p{
   color: #909090;
   padding-top: 10px;
 }
-/* /SECTION GRAY  */
-/* SECTION COURSE */
+/* / SECTION 1 */
+/* SECTION 2 */
+.section_2{
+  width: 96%;
+  margin: auto;
+  border-bottom: 1px solid #909090;
+}
 .col{
   float: left;
   margin-bottom: 2%;
@@ -131,8 +135,7 @@ header,
   padding: 20px;
 }
 .col .photo{
-  width: 100%;
-  height: 100px
+  height: 130px;
 }
 .col img{
   width: 100%;
@@ -142,15 +145,19 @@ header,
 .col h4{
   color: #7cbb02;
   text-align: center;
-  font-size: 16px;
-  padding-top: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
 }
 .col hr{
   width: 20%;
   margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .col p{
   text-align: center;
-  font-size: 10px;
+  font-size: 12px;
+  color: #909090;
 }
-/* /SECTION COURSE */
+/* /SECTION 2 */
