@@ -133,7 +133,7 @@ header,
 }
 .section_2 .col{
   float: left;
-  padding: 10px;
+  padding: 0 20px;
   width: calc(100% / 3);
 }
 .section_2 .col .photo{
@@ -149,6 +149,7 @@ header,
   text-align: center;
   font-size: 20px;
   font-weight: 400;
+  padding: 0 35px;
   margin-top: 20px;
 }
 .section_2 .col hr{
@@ -156,11 +157,14 @@ header,
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
+  border: 1px solid #909090;
 }
 .section_2 .col p{
   text-align: center;
   font-size: 14px;
   color: #909090;
+  font-weight: 500;
+  line-height: 25px;
   margin-bottom: 30px;
 }
 /* /SECTION 2 */
